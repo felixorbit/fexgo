@@ -1,5 +1,7 @@
 # Web 框架 - FexGo
 
+> 参考 [7 days golang programs from scratch](https://github.com/geektutu/7days-golang)
+
 ## 特性
 
 - 网络编程：基于 `net/http` 库的 HTTP 接口
