@@ -1,12 +1,13 @@
 package main
 
 import (
-	"felixorb/fexgo"
 	"fmt"
 	"log"
 	"net/http"
 	"text/template"
 	"time"
+
+	"github.com/felixorb/fexgo"
 )
 
 func onlyForV2() fexgo.HandlerFunc {
