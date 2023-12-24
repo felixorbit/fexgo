@@ -7,7 +7,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/felixorb/fexgo"
+	"github.com/felixorb/fexgo/fexgo"
 )
 
 func onlyForV2() fexgo.HandlerFunc {
