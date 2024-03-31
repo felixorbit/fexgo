@@ -63,13 +63,13 @@ func main() {
 	})
 
 	// 静态文件服务
-	r.Static("/assets", "./example/static")
+	r.Static("/assets", "./static")
 
 	// 服务端渲染模板
 	r.SetFuncMap(template.FuncMap{
 		"FormatAsDate": FormatAsDate,
 	})
-	r.LoadHTMLGlob("example/templates/*")
+	r.LoadHTMLGlob("./templates/*")
 	// 1
 	r.GET("/", func(c *fexgo.Context) {
 		c.HTML(http.StatusOK, "css.tmpl", nil)
