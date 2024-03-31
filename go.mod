@@ -1,3 +1,3 @@
-module github.com/felixorb/fexgo
+module github.com/felixorbit/fexgo
 
 go 1.20
