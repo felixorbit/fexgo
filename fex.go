@@ -61,7 +61,7 @@ func (e *Engine) Run(addr string) error {
 	return http.ListenAndServe(addr, e)
 }
 
-// 保存 Path 前缀，以前缀划分分组，支持嵌套
+// RouterGroup 保存 Path 前缀，以前缀划分分组，支持嵌套
 type RouterGroup struct {
 	prefix      string // 分组完整前缀
 	parent      *RouterGroup
